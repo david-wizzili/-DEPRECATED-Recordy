@@ -4,12 +4,12 @@ import getInput from './getInput';
 
 export default class Recordy extends Chnl {
 
-  recorder;
-  directOutGain;
+  // recorder
+  // directOutGain
 
-  constructor(audioCtx) {
+  constructor(audioCtx, config) {
     super(audioCtx);
-    this.recorder = new Recorder(this);
+    this.recorder = new Recorder(this, config);
 
     // Set direct output to speakers
     this.directOutGain = audioCtx.createGain();

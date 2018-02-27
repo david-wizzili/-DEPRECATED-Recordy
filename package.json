@@ -21,18 +21,20 @@
     "babel-plugin-transform-runtime": "*",
     "babel-polyfill": "*",
     "babel-preset-es2015": "*",
+    "file-loader": "*",
     "npm-install-webpack-plugin": "*",
-    "webpack": "*",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
     "webpack-dev-server": "*",
     "webpack-merge": "*",
-    "worker-loader": "*",
-    "file-loader": "*"
+    "worker-loader": "*"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scriptify/Recordy.git"
+    "url": "https://github.com/david-wizzili/-DEPRECATED-Recordy.git"
   },
   "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
     "webaudio-chnl": "0.0.6",
     "wrecorder": "github:scriptify/Wrecorder"
   }
